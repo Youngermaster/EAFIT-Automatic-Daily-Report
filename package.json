@@ -1,0 +1,24 @@
+{
+  "name": "eafit-automatic-daily-report",
+  "version": "1.0.0",
+  "description": "This project fills the EAFIT's daily report",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "playwright": "^1.12.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youngermaster/EAFIT-Automatic-Daily-Report.git"
+  },
+  "author": "Juan Manuel Young Hoyos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Youngermaster/EAFIT-Automatic-Daily-Report/issues"
+  },
+  "homepage": "https://github.com/Youngermaster/EAFIT-Automatic-Daily-Report#readme"
+}
