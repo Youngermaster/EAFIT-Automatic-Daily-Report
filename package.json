@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This project fills the EAFIT's daily report",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
   "devDependencies": {
     "playwright": "^1.12.3"
   },
