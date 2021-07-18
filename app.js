@@ -22,18 +22,20 @@ require('dotenv').config();
 
     await page.click('text=Acepto');
 
-    await page.click('text=Estudiante');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div/div[1]/div/label');
 
-    await page.click('text=Remota');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[3]/div/div[2]/div/div[2]/div/label');
 
-    await page.click('text=No');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[4]/div/div[2]/div/div[2]/div/label');
 
-    await page.click('text=No');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[5]/div/div[2]/div/div[2]/div/label');
 
-    await page.click('text=No');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[6]/div/div[2]/div/div[2]/div/label');
 
-    await page.click('text=No');
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[2]/div[2]/div[7]/div/div[2]/div/div[2]/div/label');
 
-    await page.click('text=Submit');
+    await page.click('//*[@id="SelectId_0"]');
+    await page.click('//*[@id="SelectId_0"]/div[2]/div[2]');
 
+    await page.click('//*[@id="form-container"]/div/div/div[1]/div/div[1]/div[2]/div[3]/div[1]/button/div');
 })();
